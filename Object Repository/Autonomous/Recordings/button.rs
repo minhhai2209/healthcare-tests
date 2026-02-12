@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='localStorage'])[1]/following::button[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button</value>
+         <value>button:nth-of-type(3)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;start-quote&quot;]</value>
+         <value>[data-testid=&quot;next-page&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,39 +29,79 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>db65594b-49fd-47a9-a542-b630d509ccd3</webElementGuid>
+      <webElementGuid>790722d7-534f-4fda-ae9e-27ee27c362ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>start-quote</value>
-      <webElementGuid>e4d9ec5b-3c6e-4621-a92e-0e7f2cf118f9</webElementGuid>
+      <value>next-page</value>
+      <webElementGuid>40684c7c-426a-4d7d-8845-0783ad83b9c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-mcp-ref</name>
       <type>Main</type>
-      <value>e17</value>
-      <webElementGuid>0630a219-4c35-4618-9816-9b571a88d64d</webElementGuid>
+      <value>e24</value>
+      <webElementGuid>25eb3478-5c17-43b3-b6e4-1288ec4b1a7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;shell&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;inline&quot;]/button[1]</value>
-      <webElementGuid>b84d6d5b-d72e-4e34-96a8-9176ac792e20</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;shell&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;inline&quot;]/button[3]</value>
+      <webElementGuid>d34eceb2-3202-4993-a9b2-3a86b95f070b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::button[1]</value>
+      <webElementGuid>8f354366-cd28-4c29-b539-e65d4aa5bc3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::button[2]</value>
+      <webElementGuid>e3b1c186-96e6-4f77-9290-707e588404e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Execution Log'])[1]/preceding::button[1]</value>
+      <webElementGuid>0ec8ebbb-c252-498a-b2a1-b284d4c60b40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Next']/parent::*</value>
+      <webElementGuid>4ecbc1c7-ef99-45fd-8dc1-423acac0f570</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>4d988dde-514a-4b2c-a20b-5b2771d198ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='localStorage'])[1]/following::button[1]</value>
-      <webElementGuid>5a958e3d-e4d8-4f70-a783-174db29edc2e</webElementGuid>
+      <webElementGuid>17935fb3-7109-4b3d-9367-1347567c953d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start / Resume'])[1]/following::button[1]</value>
-      <webElementGuid>45def121-bb7f-4877-b494-9da2872d4c17</webElementGuid>
+      <webElementGuid>7c40ad0a-f2bd-44d1-9105-52762e645488</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Resume Quote'])[1]/preceding::button[1]</value>
-      <webElementGuid>587d2248-6c64-4e70-ad35-e2122cb0faeb</webElementGuid>
+      <webElementGuid>e1d35251-eda8-45f5-a9b5-a3d626ee6869</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear Demo State'])[1]/preceding::button[2]</value>
-      <webElementGuid>658b2926-755e-4aff-a0ab-a6bdaaa4c03f</webElementGuid>
+      <webElementGuid>8936d577-4ab8-4f2d-a22f-0628b53dac9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Start Quote']/parent::*</value>
-      <webElementGuid>b3fd6de4-61f5-452e-9093-6896e7e7c8ef</webElementGuid>
+      <webElementGuid>4f6ee888-7f4e-4730-9523-1625641db917</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +141,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>a05ba153-4c99-4a0a-9490-1846289d2e96</webElementGuid>
+      <webElementGuid>db4b27e6-5cc7-4a05-a885-c5d10319748d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
